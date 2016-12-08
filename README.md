@@ -1,6 +1,16 @@
-Maps HTTP requests to key presses.
+Extremely lightweight Electron app to map HTTP requests to key presses.
 
-Create and populate `requests.json` with an object containing your desired requests.
+See [Electron's globalShortcut documention](https://github.com/electron/electron/blob/master/docs/api/global-shortcut.md).
+
+# How to use
+
+```bash
+git clone https://github.com/Nase00/node-http-macros
+cd node-http-macros
+npm install
+```
+
+Within the root, create and populate `requests.json` with an object containing your desired requests.
 
 Example of a single macro that sends a request to `http://hostname/path/to/api` when `Q` is pressed:
 ```json
@@ -19,3 +29,5 @@ Example of a single macro that sends a request to `http://hostname/path/to/api` 
   }
 }
 ```
+
+Once `requests.json` exists, run with `npm start`.

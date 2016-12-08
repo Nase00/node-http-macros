@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "electron ./index.js"
   },
   "author": "Sean Owiecki",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.4.11"
+  }
 }

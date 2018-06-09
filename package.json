@@ -9,6 +9,6 @@
   "author": "Sean Owiecki",
   "license": "MIT",
   "dependencies": {
-    "electron": "^1.4.11"
+    "electron": "^2.0.2"
   }
 }
